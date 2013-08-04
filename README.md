@@ -14,3 +14,11 @@ and computational thinking on the Raspberry Pi.
 
 `dissertation/` - a written dissertation
 
+## Todo
+
+- Source code for language and editor
+- Screenshots
+- Installation
+- Usage
+- Licensing
+- Key outcomes of research
