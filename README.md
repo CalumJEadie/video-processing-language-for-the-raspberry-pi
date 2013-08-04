@@ -10,9 +10,9 @@ and computational thinking on the Raspberry Pi.
 
 ## Contents
 
-`app/` - a visual programming language and a development environment
+`/app` - a visual programming language and a development environment
 
-`dissertation/` - a written dissertation
+`/dissertation` - a written dissertation
 
 ## Todo
 
