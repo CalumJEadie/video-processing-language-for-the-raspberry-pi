@@ -1,4 +1,6 @@
-video-processing-language-for-the-raspberry-pi
+Video Processing Language for the Raspberry Pi
 ==============================================
 
-Video Processing Language for the Raspberry Pi - Cambridge CS Final Year Project
+My final year project for my CS undergrad at Cambridge - exploiting the video
+processing power of the Raspberry Pi to create an educational visual video
+processing language.
