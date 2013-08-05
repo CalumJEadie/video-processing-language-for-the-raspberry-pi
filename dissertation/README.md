@@ -16,15 +16,15 @@ My project aimed to:
 
 through,
 
-a. Determining a set of capabilities to control.
+1. Determining a set of capabilities to control.
 
-b. Developing an API for the capabilities.
+2. Developing an API for the capabilities.
 
-c. Developing a visual language.
+3. Developing a visual language.
 
-d. Creating a development environment.
+4. Creating a development environment.
 
-e. Evaluating the project with a small structured used study.
+5. Evaluating the project with a small structured used study.
 
 ### Work Completed
 
