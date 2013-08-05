@@ -1,6 +1,12 @@
 Video Processing Language for the Raspberry Pi
 ==============================================
 
+[Read more about the visual programming language and development environment](https://github.com/CalumJEadie/video-processing-language-for-the-raspberry-pi/tree/master/app)
+
+
+[Read more about the dissertation](https://github.com/CalumJEadie/video-processing-language-for-the-raspberry-pi/tree/master/dissertation)
+
+
 My final year project for my CS undergrad at Cambridge. The project spanned
 seven months and was assessed by a written dissertation.
 
