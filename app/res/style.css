@@ -1,0 +1,274 @@
+/*
+ * Colour-blind safe colour scheme.
+ *
+ * Based on https://bugzilla.mozilla.org/show_bug.cgi?id=578994.
+ *
+ * grass-green: #339900
+ * orange: #ff6600;
+ * brick-red: #FF0000;
+ * deep-pink: #FF6699;
+ */
+
+/* debugging */
+
+/*
+ScriptEdit {
+    border-color: purple;
+    border-width: 1px;
+    border-style: solid;
+    background: purple;
+}
+
+ActWidget {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    background: black;
+}
+*/
+
+QWidget {
+    font-size: 18px;
+}
+
+
+
+TextSceneWidget,
+VideoSceneWidget,
+IfSceneWidget,
+WhileSceneWidget,
+MiniTextSceneWidget,
+MiniVideoSceneWidget,
+MiniIfSceneWidget,
+MiniWhileSceneWidget,
+GapWidget > QLabel,
+ListGapWidget,
+TextValueWidget,
+NumberValueWidget,
+VideoValueWidget,
+MiniVideoValueWidget,
+VideoCollectionValueWidget,
+SetWidget,
+GetWidget,
+NumberOperatorWidget,
+GetRandomNumberBetweenIntervalWidget,
+YoutubeVideoGetTitleWidget,
+YoutubeVideoGetDurationWidget,
+YoutubeVideoRandomCommentWidget,
+YoutubeVideoGetRelatedWidget,
+YoutubeVideoCollectionRandomWidget,
+YoutubeSearchWidget,
+VideoCollectionFunction0Widget {
+    border-radius: 5px;
+}
+
+MiniTextSceneWidget,
+MiniVideoSceneWidget,
+MiniIfSceneWidget,
+MiniWhileSceneWidget {
+    font-size: 36px;
+}
+
+/*NumberOperatorWidget QComboBox {
+    height: 30px;
+    font-size: 30px;
+
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 1px 10px 1px 3px;
+}*/
+
+
+
+MiniIfSceneWidget,
+IfSceneWidget,
+MiniWhileSceneWidget,
+WhileSceneWidget {
+    border-color: purple;
+    border-width: 2px;
+    border-style: solid;
+    background: white;
+}
+
+TextSceneWidget,
+MiniTextSceneWidget,
+TextGapWidget > QLabel,
+TextValueWidget,
+YoutubeVideoGetTitleWidget,
+YoutubeVideoRandomCommentWidget,
+TextGetWidget,
+TextSetWidget {
+    border-color: #339900;
+    border-width: 2px;
+    border-style: solid;
+    background: white;
+}
+
+TextGapWidget {
+    color: #339900;
+}
+
+VideoSceneWidget,
+MiniVideoSceneWidget,
+VideoGapWidget > QLabel,
+VideoGetWidget,
+VideoSetWidget {
+    border-color: #FF0000;
+    border-width: 2px;
+    border-style: solid;
+    background: white;
+}
+
+VideoCollectionGapWidget > QLabel,
+VideoCollectionGetWidget,
+VideoCollectionSetWidget {
+    border-color: #FF6699;
+    border-width: 2px;
+    border-style: solid;
+    background: white;   
+}
+
+TextValueWidget > QLabel {
+    color: #339900;
+    font-size: 36px;
+}
+
+TextValueWidget > QLineEdit {
+    background: white;
+    color: #339900;
+}
+
+NumberValueWidget,
+NumberOperatorWidget,
+GetRandomNumberBetweenIntervalWidget,
+NumberGapWidget > QLabel,
+NumberGetWidget,
+NumberSetWidget,
+YoutubeVideoGetDurationWidget {
+    border-color: blue;
+    border-width: 2px;
+    border-style: solid;
+    background: white;
+}
+
+NumberGapWidget {
+    color: blue;
+}
+
+NumberValueWidget > QLineEdit {
+    background: white;
+    color: blue;
+}
+
+VideoValueWidget,
+YoutubeVideoCollectionRandomWidget,
+MiniVideoValueWidget {
+    border-color: #FF0000;
+    border-width: 2px;
+    border-style: solid;
+    background: white;
+}
+
+VideoValueWidget > QLineEdit {
+    background: white;
+    color: #FF0000;
+}
+
+VideoCollectionWidget,
+YoutubeVideoGetRelatedWidget,
+YoutubeSearchWidget,
+VideoCollectionFunction0Widget {
+    border-color: #FF6699;
+    border-width: 2px;
+    border-style: solid;
+    background: white;
+}
+
+ListGapWidget {
+    border-style: ridge;
+    border-width: 3px;
+}
+
+SceneGapWidget {
+    font-size: 24px;
+    text-align: center;
+    border-color: darkslategrey;
+    color: darkslategrey;
+    border-style: solid;
+    background: white;
+}
+
+CommandGapWidget {
+    border-color: grey;
+    border-style: solid;
+    background: white;
+    color: grey;
+}
+
+CommentWidget {
+    font-style: italic;
+    font-family: georgia;
+    border: 0px;
+}
+
+GapWidget > QLabel {
+    border-style: ridge;
+    border-width: 8px;
+}
+
+TextSceneWidget,
+VideoSceneWidget,
+IfSceneWidget,
+WhileSceneWidget,
+MiniTextSceneWidget,
+MiniVideoSceneWidget,
+MiniIfSceneWidget,
+MiniWhileSceneWidget,
+SceneGapWidget
+{
+    border-style: solid;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-radius: 20px;
+}
+
+/* Highlight draggable widgets */
+
+/* Components in Palette */
+
+PaletteWidget MiniTextSceneWidget:hover,
+PaletteWidget MiniVideoSceneWidget:hover,
+PaletteWidget MiniIfSceneWidget:hover,
+PaletteWidget MiniWhileSceneWidget:hover,
+PaletteWidget TextValueWidget:hover,
+PaletteWidget NumberValueWidget:hover,
+PaletteWidget VideoValueWidget:hover,
+PaletteWidget VideoValueWidget:hover,
+PaletteWidget VideoCollectionValueWidget:hover,
+PaletteWidget SetWidget:hover,
+PaletteWidget GetWidget:hover,
+PaletteWidget NumberOperatorWidget:hover,
+PaletteWidget GetRandomNumberBetweenIntervalWidget:hover,
+PaletteWidget YoutubeVideoGetTitleWidget:hover,
+PaletteWidget YoutubeVideoGetDurationWidget:hover,
+PaletteWidget YoutubeVideoRandomCommentWidget:hover,
+PaletteWidget YoutubeVideoGetRelatedWidget:hover,
+PaletteWidget YoutubeVideoCollectionRandomWidget:hover,
+PaletteWidget YoutubeSearchWidget:hover,
+PaletteWidget VideoCollectionFunction0Widget:hover {
+    background: #ff6600;
+}
+
+/* Widgets where highlight has been explicitly set */
+
+GapWidget[highlight="true"] > QLabel,
+ListWidget[highlight="true"] {
+    background: #ff6600;
+}
+
+QPlainTextEdit {
+    font-family: Courier New, monospace;
+}
+
